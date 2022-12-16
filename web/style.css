@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 30px;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    display: inline;
+}
+
+.navbar-top ul{
+    background: #42474a ;
+
+    list-style-type: none; /* remove the bullets */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-top ul li {
+    float: left;
+    display: inline;
+}
+
+.navbar-top ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #9e98a4;
+}
+
+.navbar-top ul li a:hover {
+    background: #5c4869;
+}
